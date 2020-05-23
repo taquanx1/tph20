@@ -1,0 +1,18 @@
+Main class categories:
+    1. fileClass
+    2. corpus: untranslated dictionary
+    3. gloss: translated dictionary
+
+Conversion matrix
+       t o
+ f    f c g
+ r  f - 1 -
+ o  c - - 1
+ m  g - - -
+
+ Apply matrix
+       t o
+ f    f c g
+ r  f - - -
+ o  c 1 - -
+ m  g 1 1 -
